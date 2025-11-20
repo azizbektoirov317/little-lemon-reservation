@@ -1,0 +1,1 @@
+import React from 'react';import BookingPage from './components/BookingPage';function App(){return <BookingPage />;}export default App;
