@@ -1,0 +1,1 @@
+import React from 'react';export default function ConfirmedBooking(){return <h2>Booking Confirmed!</h2>;}

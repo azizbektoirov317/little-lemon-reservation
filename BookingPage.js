@@ -1,0 +1,1 @@
+import React, {useState} from 'react';import ReservationForm from './ReservationForm';import ConfirmedBooking from './ConfirmedBooking';function BookingPage(){const[confirmed,setConfirmed]=useState(false);return confirmed? <ConfirmedBooking />:<ReservationForm onConfirm={()=>setConfirmed(true)} />;}export default BookingPage;
